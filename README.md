@@ -1,25 +1,22 @@
 # yixin
 
-## Project setup
+## 项目开始请先安装依赖
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 启动项目命令
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### 打包项目命令
 ```
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+#### 该项目并未上线，如果大家想要使用需要自行下载后端代码，同时需要修改 vue.config.js 中的代理路劲。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# hotel-cms
+该项目存在少数几个BUG，例如当用户角色不存在增加订单权限时，在查看房间状态时，点击可预约房间会自动跳转到未注册的页面，会出现问题，大家可以自行解决。
+
+该项目不会进行维护，感谢大家的支持！如果对大家有帮助，可以点击一下 star！ 
